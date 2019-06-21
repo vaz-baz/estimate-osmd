@@ -397,6 +397,9 @@ a:hover {
   display: flex;
   border-left: 1px solid #c0c0c0;
 }
+.th-extra [class*=th-0] {
+  text-align: center;
+}
 .td-extra .tr-head {
   display: none;
 }
