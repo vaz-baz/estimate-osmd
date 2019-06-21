@@ -298,7 +298,13 @@ a:hover {
 
 @media (max-width: 940px) {
   .wrapper {
-    padding: 30px 10px;
+    padding: 30px 25px;
+  }
+}
+
+@media (max-width: 479px) {
+  .wrapper {
+    padding: 30px 15px;
   }
 }
 
@@ -315,7 +321,6 @@ a:hover {
 @media (max-width: 940px) {
   .intro {
     padding: 15px;
-    margin: 0 0 30px;
   }
 }
 
@@ -343,8 +348,21 @@ a:hover {
   background: rgba(0,0,0,.7);
 }
 
+@media (max-width: 940px) {
+  .table {
+    background: none;
+    border: none;
+  }
+}
+
 .t-head {
   display: flex;
+}
+@media (max-width: 940px) {
+  .t-head {
+    border: 1px solid #fff;
+    background: rgba(0,0,0,.9);
+  }
 }
 
 .t-body {
@@ -356,7 +374,8 @@ a:hover {
   display: flex;
 }
 .t-body > .tr {
-  border-top: 1px solid #fff;
+  border: 1px solid #fff;
+  border-width: 1px 0 0;
 }
 .t-body .tr:nth-child(2n) {
   background: rgba(0,0,0,.9);
@@ -364,7 +383,9 @@ a:hover {
 @media (max-width: 940px) {
   .t-body > .tr {
     flex-wrap: wrap;
-    border-width: 6px 0 0;
+    margin-top: 40px;
+    border-width: 6px 1px 1px;
+    background: rgba(0,0,0,.9);
   }
 }
 
@@ -490,6 +511,11 @@ a:hover {
 .t-body > .tr:nth-child(2n+1) .td-01 {
   background: rgba(246, 203, 79, .15);
 }
+@media (max-width: 940px) {
+  .t-body > .tr:nth-child(2n+1) .td-01 {
+    background: rgba(0,0,0,.9);
+  }
+}
 
 /*.table .td-02 {
   background: rgba(246, 203, 79, .15);
@@ -518,7 +544,7 @@ a:hover {
 @media (max-width: 940px) {
   .table .th-title,
   .table .td-title {
-    padding: 30px 15px 15px;
+    padding: 15px;
   }
 
   .table .th-title {
