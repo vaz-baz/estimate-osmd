@@ -230,11 +230,13 @@ table {
   display: inline-block;
   vertical-align: top;
 }
-.is-included .icon {
+.is-included .icon,
+.is-included.icon {
   color: rgb(151, 192, 91);
 }
 
-.is-excluded .icon {
+.is-excluded .icon,
+.is-excluded.icon {
   color: rgb(226, 81, 65);
 }
 
@@ -598,19 +600,12 @@ a:hover {
   border-top: 1px solid rgba(255,255,255,.5);
 }
 
+.question .icon {
+  font-weight: bold;
+}
+
 @media (max-width: 479px) {
   .question {
     margin: 7px 0 -5px;
   }
-}
-
-.question i {
-  font-style: italic;
-  font-weight: bold;
-}
-
-.question .icon {
-  font-style: normal;
-  vertical-align: middle;
-  color: rgb(151, 192, 91);
 }
