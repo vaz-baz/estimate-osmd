@@ -346,6 +346,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   color: #fff;
+  margin: 0 0 50px;
   border: 1px solid #fff;
   background: rgba(0,0,0,.7);
 }
@@ -527,15 +528,19 @@ a:hover {
 .table .th-04,
 .table .td-02,
 .table .td-03,
-.table .td-04 {
+.table .td-04,
+.table .th-05,
+.table .th-06,
+.table .td-05,
+.table .td-06  {
   background: rgba(151, 192, 91, .2);
 }
-.table .th-05,
+/*.table .th-05,
 .table .th-06,
 .table .td-05,
 .table .td-06 {
   background: rgba(226, 81, 65, .25);
-}
+}*/
 
 .table .td-title,
 .table .th-title {
