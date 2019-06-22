@@ -578,18 +578,6 @@ a:hover {
   padding-right: 15px;
 }
 
-@media (max-width: 479px) {
-  .th-icon,
-  .td-icon {
-    display: none;
-  }
-
-  .table .th-03,
-  .table .td-03 {
-    display: none;
-  }
-}
-
 .note {
   font-size: 15px;
   line-height: 1.3;
